@@ -19,7 +19,7 @@
   };
   
   document.querySelector("input").oninput = function func1() {
-    slide.get.setAttribute("data-value", this.value);
+    slide.setAttribute("data-value", this.value);
   };
   
   /*
